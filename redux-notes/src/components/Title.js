@@ -66,7 +66,7 @@ function mapStateToProps(state ) {// state can be store too. depends on what you
 //         updateTitle: (title) => dispatch(updateTitle(title)),
 //         toggleEditing: () => dispatch(toggleEditing)
 //     } //updateTitle and toggleEditing as proverty are banana words.
-// } look down below the code, more conside and works fine. 
+// } look down below the code, more  and works fine. 
 
 const mapDispatchToProps = { // even if you dont say dispatch they will just do dispatch for you. 
     //updateTitle: updateTitle if the key/value are the same.
