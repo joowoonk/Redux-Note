@@ -55,7 +55,7 @@ const Title = (props) => {
 
 function mapStateToProps(state ) {// state can be store too. depends on what you want to name it.
     return{
-        title: state.title,
+        title: state.title.title,
         editing: state.editing
     } //title and eidting as proverty are  banana words.
 }
@@ -73,6 +73,6 @@ const mapDispatchToProps = { // even if you dont say dispatch they will just do 
     updateTitle,
 
     toggleEditing
-}
+} // Action to Reducer
 
 export default connect(mapStateToProps, mapDispatchToProps)(Title);
